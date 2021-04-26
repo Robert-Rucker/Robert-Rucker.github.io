@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "greenlandsaga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Island", "latitude": 18.40366, "longitude": -64.48414, "chapter": "2, 5, 8", "kalfi": 2 }, "geometry": { "type": "Point", "coordinates": [ -64.48414, 18.40366 ] } },
+{ "type": "Feature", "properties": { "name": "Noregur", "latitude": -7.4406, "longitude": -60.1439, "chapter": "1, 5, 6, 7, 8", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.1439, -7.4406 ] } },
+{ "type": "Feature", "properties": { "name": "Brimar", "latitude": -8.4847, "longitude": -53.0451, "chapter": "8", "kalfi": 8 }, "geometry": { "type": "Point", "coordinates": [ -53.0451, -8.4847 ] } },
+{ "type": "Feature", "properties": { "name": "Saxland", "latitude": -9.2756, "longitude": -51.4458, "chapter": "8", "kalfi": 8 }, "geometry": { "type": "Point", "coordinates": [ -51.4458, -9.2756 ] } },
+{ "type": "Feature", "properties": { "name": "Austfir�ir", "latitude": 14.1029, "longitude": -64.4805, "chapter": "7", "kalfi": 7 }, "geometry": { "type": "Point", "coordinates": [ -64.4805, 14.1029 ] } },
+{ "type": "Feature", "properties": { "name": "H�f�i", "latitude": 19.2464, "longitude": -65.5869, "chapter": "6", "kalfi": 6 }, "geometry": { "type": "Point", "coordinates": [ -65.5869, 19.2464 ] } },
+{ "type": "Feature", "properties": { "name": "Skagafj�r�ur", "latitude": 19.2984, "longitude": -65.4777, "chapter": "8", "kalfi": 8 }, "geometry": { "type": "Point", "coordinates": [ -65.4777, 19.2984 ] } },
+{ "type": "Feature", "properties": { "name": "Glaumb�r", "latitude": 19.3027, "longitude": -65.3667, "chapter": "8", "kalfi": 8 }, "geometry": { "type": "Point", "coordinates": [ -65.3667, 19.3027 ] } },
+{ "type": "Feature", "properties": { "name": "Akranes", "latitude": 22.041, "longitude": -64.1943, "chapter": "1", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -64.1943, 22.041 ] } },
+{ "type": "Feature", "properties": { "name": "Vogur", "latitude": 22.406, "longitude": -63.5698, "chapter": "1", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -63.5698, 22.406 ] } },
+{ "type": "Feature", "properties": { "name": "Eyrar", "latitude": 21.0852, "longitude": -63.517, "chapter": "1", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -63.517, 21.0852 ] } },
+{ "type": "Feature", "properties": { "name": "Drepstokki", "latitude": 21.112, "longitude": -63.5283, "chapter": "1", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -63.5283, 21.112 ] } },
+{ "type": "Feature", "properties": { "name": "Gr�nlandshaf", "latitude": 29.477, "longitude": -65.4817, "chapter": "1", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -65.4817, 29.477 ] } },
+{ "type": "Feature", "properties": { "name": "Gr�nland", "latitude": 44.0644, "longitude": -65.2986, "chapter": "1, 2, 4, 5, 6, 7", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -65.2986, 44.0644 ] } },
+{ "type": "Feature", "properties": { "name": "L�sufj�r�ur", "latitude": 50.3424, "longitude": -64.2426, "chapter": "5", "kalfi": 5 }, "geometry": { "type": "Point", "coordinates": [ -64.2426, 50.3424 ] } },
+{ "type": "Feature", "properties": { "name": "Brattahl��", "latitude": 45.3148, "longitude": -61.0908, "chapter": "1, 2, 5, 6", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.0908, 45.3148 ] } },
+{ "type": "Feature", "properties": { "name": "Eir�ksfj�r�ur", "latitude": 45.3181, "longitude": -61.0014, "chapter": "3, 4, 5, 6, 7", "kalfi": 3 }, "geometry": { "type": "Point", "coordinates": [ -61.0014, 45.3181 ] } },
+{ "type": "Feature", "properties": { "name": "Gar�ar", "latitude": 45.2583, "longitude": -60.5916, "chapter": "1, 7", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.5916, 45.2583 ] } },
+{ "type": "Feature", "properties": { "name": "Herj�lfsnes", "latitude": 44.5128, "longitude": -90.0294, "chapter": "1", "kalfi": 1 }, "geometry": { "type": "Point", "coordinates": [ -90.0294, 44.5128 ] } },
+{ "type": "Feature", "properties": { "name": "Helluland (V�nland)", "latitude": 70.599, "longitude": -65.4218, "chapter": "2", "kalfi": 2 }, "geometry": { "type": "Point", "coordinates": [ -65.4218, 70.599 ] } },
+{ "type": "Feature", "properties": { "name": "Markland", "latitude": 57.5487, "longitude": -53.2103, "chapter": "2", "kalfi": 2 }, "geometry": { "type": "Point", "coordinates": [ -53.2103, 57.5487 ] } },
+{ "type": "Feature", "properties": { "name": "V�nland", "latitude": 60.4922, "longitude": -51.3052, "chapter": "4, 5, 6, 7, 8", "kalfi": 4 }, "geometry": { "type": "Point", "coordinates": [ -51.3052, 60.4922 ] } },
+{ "type": "Feature", "properties": { "name": "Leifsb��ir", "latitude": 55.46, "longitude": -51.256, "chapter": "4, 6", "kalfi": 4 }, "geometry": { "type": "Point", "coordinates": [ -51.256, 55.46 ] } },
+{ "type": "Feature", "properties": { "name": "Kjalarnes � V�nlandi", "latitude": 59.4462, "longitude": -45.5982, "chapter": "4", "kalfi": 4 }, "geometry": { "type": "Point", "coordinates": [ -45.5982, 59.4462 ] } },
+{ "type": "Feature", "properties": { "name": "Krossanes", "latitude": 63.4061, "longitude": -44.312, "chapter": "4", "kalfi": 4 }, "geometry": { "type": "Point", "coordinates": [ -44.312, 63.4061 ] } }
+]
+}
