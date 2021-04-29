@@ -133,9 +133,9 @@
 			map.addControl(searchControl);
 			searchControl.indexFeatures(britonJson, ['name']);
 
-			displayFeatures(britonJson, searchLayer);
+			displayFeatureCollection(britonJson, searchLayer);
 
-			function displayFeatures(features, layer) {
+			function displayFeatureCollection(features, layer) {
 				var popup = L.DomUtil.create('div', 'tiny-popup', map.getContainer());
 				for (var id in features) {
 					var feat = features[id];
