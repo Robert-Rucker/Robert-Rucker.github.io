@@ -1,4 +1,4 @@
-var pointInfo = {
+var pointInfoJson = {
 "type": "FeatureCollection",
 "name": "2021powwow",
 "features": [
