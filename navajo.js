@@ -4,9 +4,9 @@ var navajoJson = {
         "popupContent": "Navajo Region",
         "style": {
             weight: 2,
-            color: "f97f46",
+            color: "F97F46",
             opacity: 1,
-            fillColor: "f97f46",
+            fillColor: "F97F46",
             fillOpacity: 0.5
         },
     },
