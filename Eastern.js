@@ -9,8 +9,6 @@ var easternJson = {
             fillColor: "f97f46",
             fillOpacity: 0.5
         },
-		"Shape_Length": 425.335143,
-		"Shape_Area": 799.436289
     },
     "geometry": {
         "type": "MultiPolygon",
