@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Options for Powwow Map</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<script type="text/javascript" src="https://robert-rucker.github.io/EasternOk.js"></script>
+	<script type="text/javascript" src="https://robert-rucker.github.io/Eastern.js"></script>
+	<script type="text/javascript" src="https://robert-rucker.github.io/navajo.js"></script>
+	<script type="text/javascript" src="https://robert-rucker.github.io/powwow2021.js"></script>
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		#map {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+
+	
+</head>
+<body>
+
+<div id='map'></div>
+
+
+
+<script>
+
+	var map = L.map('map');
+
+	map.createPane('labels');
+
+	// This pane is above markers but below popups
+	map.getPane('labels').style.zIndex = 650;
+
+	// Layers in this pane are non-interactive and do not obscure mouse/touch events
+	map.getPane('labels').style.pointerEvents = 'none';
+
+	var cartodbAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution">CARTO</a>';
+
+	var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+		attribution: cartodbAttribution
+	}).addTo(map);
+
+	var positronLabels = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+		attribution: cartodbAttribution,
+		pane: 'labels'
+	}).addTo(map);
+
+	geojson = L.geoJson(easternOkJson).addTo(map);
+	geojson2 = L.geoJson(easternJson).addTo(map);
+	geojson3 = L.geoJson(navajoJson).addTo(map);
+
+	map.setView([41.16359, -100.79617], 5);
+	
+	
+</script>
+
+
+
+</body>
+</html>
