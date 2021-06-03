@@ -4,9 +4,9 @@ var easternOkJson = {
         "popupContent": "Eastern Oklahoma",
         "style": {
             weight: 2,
-            color: "f97f46",
+            color: "#AA4499",
             opacity: 1,
-            fillColor: "f97f46",
+            fillColor: "#AA4499",
             fillOpacity: 0.5
         },
     },
