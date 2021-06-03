@@ -4,9 +4,9 @@ var easternJson = {
         "popupContent": "Eastern Region",
         "style": {
             weight: 2,
-            color: "f97f46",
+            color: "#DDCC77",
             opacity: 1,
-            fillColor: "f97f46",
+            fillColor: "#DDCC77",
             fillOpacity: 0.5
         },
     },
