@@ -54,7 +54,7 @@
 					
 					var popup = '<h3>'+prop['city']+'</h3>'+'<br><strong>Reservation: </strong>'+prop['reservation']+'<br><strong>Latitude and Longitude: </strong>'+prop['latitude']+' '+prop['longitude']+'<br><strong>Note: </strong>'+prop['personOfIntrest'];
 					feature.layer = layer;
-					layer.bindPopup(popup, {maxWidth: "auto"});
+					layer.bindPopup(popup, {maxWidth: 500});
 				}
 			}; 
 			var greenMarkers = {
