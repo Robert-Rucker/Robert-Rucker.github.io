@@ -52,7 +52,7 @@
 				if (feature.properties) {
 					var prop = feature.properties;
 					
-					var popup = '<h3>'+prop['city']+'</h3>'+'<br><strong>Reservation/Tribe: </strong>'+prop['reservation']+'<br><strong>Latitude and Longitude: </strong>'+prop['latitude']+'<strong> , </strong> '+prop['longitude']+'<br><strong>Note: </strong>'+prop['personOfIntrest'];
+					var popup = '<h3>'+prop['city']+'</h3>'+'<br><strong>Reservation/Tribe: </strong>'+prop['reservation']+'<br><strong>Latitude and Longitude: </strong>'+prop['latitude']+'<strong> , </strong> '+prop['longitude']+'<br><strong>Note: </strong>'+prop['personOfIntrest']+'<br><strong>Book: </strong>'+prop['book'];
 					feature.layer = layer;
 					layer.bindPopup(popup, {maxWidth: "500"});
 				}
