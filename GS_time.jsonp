@@ -3,7 +3,7 @@ onLoadData({
 "name": "GS_time",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "NAME": "Noregur", "DEM": "1, 7, 38", "REP": 1, "DIFF": 3, "start": 1, "end": 7, "EV": 3, "longitude": 7.4406, "latitude": 60.1439 }, "geometry": { "type": "Point", "coordinates": [ 7.4406, 60.1439 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 1, "NAME": "Noregur", "DEM": "1, 7, 38", "REP": 1, "DIFF": 3, "start": 1603150000000, "end": 1603630000000, "EV": 3, "longitude": 7.4406, "latitude": 60.1439 }, "geometry": { "type": "Point", "coordinates": [ 7.4406, 60.1439 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 2, "NAME": "Noregur", "DEM": null, "REP": null, "DIFF": 3, "start": 7, "end": 38, "EV": 3, "longitude": 7.4406, "latitude": 60.1439 }, "geometry": { "type": "Point", "coordinates": [ 7.4406, 60.1439 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 3, "NAME": "Noregur", "DEM": null, "REP": null, "DIFF": 3, "start": 38, "end": 38, "EV": 3, "longitude": 7.4406, "latitude": 60.1439 }, "geometry": { "type": "Point", "coordinates": [ 7.4406, 60.1439 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 4, "NAME": "S�rnadalur", "DEM": "1, 2, 3", "REP": 1, "DIFF": 3, "start": 1, "end": 2, "EV": 3, "longitude": 8.729667, "latitude": 62.9755 }, "geometry": { "type": "Point", "coordinates": [ 8.729667, 62.9755 ] } },
