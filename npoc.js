@@ -1,8 +1,4 @@
-var npoc = {
-"type": "FeatureCollection",
-"name": "npoc",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
+var npoc = [
 { "type": "Feature", "properties": { "Object ID": 440, "Reference ID": 429, "Line on Census Page": 36, "House Number": 937, "Family Number": 1092, "LNAME": "Burnett", "FNAME": "Almira", "Full Name": "Almira Burnett", "AGE": 40, "GENDER": "F", "Race": "Black", "OCCUPATION": null, "FAMREAL": 0, "PERSREAL": 0, "Origin": "Tenn", "ADDRESS": "30 south Front Street", "ID": 9371092, "Latitude": 36.16141208, "Longitude": -86.77400365 }, "geometry": { "type": "Point", "coordinates": [ -86.77400365, 36.16141208 ] } },
 { "type": "Feature", "properties": { "Object ID": 146, "Reference ID": 421, "Line on Census Page": 10, "House Number": 277, "Family Number": 306, "LNAME": "Stratton", "FNAME": "Jefferson", "Full Name": "Jefferson Stratton", "AGE": 50, "GENDER": "M", "Race": "Black", "OCCUPATION": "Hackman", "FAMREAL": 0, "PERSREAL": 0, "Origin": "Virginia", "ADDRESS": "126 north College Street", "ID": 277306, "Latitude": 36.17090744, "Longitude": -86.78174683 }, "geometry": { "type": "Point", "coordinates": [ -86.78174683, 36.17090744 ] } },
 { "type": "Feature", "properties": { "Object ID": 347, "Reference ID": 421, "Line on Census Page": 12, "House Number": 751, "Family Number": 860, "LNAME": "Tate", "FNAME": "Andrew", "Full Name": "Andrew Tate", "AGE": 51, "GENDER": "M", "Race": "Black", "OCCUPATION": "Boatsman", "FAMREAL": 4000, "PERSREAL": 100, "Origin": "Tenn", "ADDRESS": "89 south College Street", "ID": 751860, "Latitude": 36.1606633, "Longitude": -86.77510287 }, "geometry": { "type": "Point", "coordinates": [ -86.77510287, 36.1606633 ] } },
@@ -11,4 +7,3 @@ var npoc = {
 { "type": "Feature", "properties": { "Object ID": 501, "Reference ID": 0, "Line on Census Page": 4, "House Number": 233, "Family Number": 256, "LNAME": "Dungey", "FNAME": "William", "Full Name": "William Dungey", "AGE": 35, "GENDER": "M", "Race": "Mulatto", "OCCUPATION": "Fisherman", "FAMREAL": 0, "PERSREAL": 0, "Origin": "Tennessee", "ADDRESS": "Jackson Street & Market Street", "ID": 233256, "Latitude": 36.174394, "Longitude": -86.783019 }, "geometry": { "type": "Point", "coordinates": [ -86.783019, 36.174394 ] } },
 { "type": "Feature", "properties": { "Object ID": 350, "Reference ID": 251, "Line on Census Page": 11, "House Number": 786, "Family Number": 898, "LNAME": "Hodge", "FNAME": "Thomas", "Full Name": "Thomas Hodge", "AGE": 45, "GENDER": "M", "Race": "Mulatto", "OCCUPATION": "Barber", "FAMREAL": 0, "PERSREAL": 0, "Origin": "Tenn", "ADDRESS": "73 south Cherry Street", "ID": 786898, "Latitude": 36.1605097, "Longitude": -86.77650223000001 }, "geometry": { "type": "Point", "coordinates": [ -86.77650223, 36.1605097 ] } }
 ]
-}
