@@ -1,4 +1,4 @@
-var nashpeople = {
+var nashpeople = [
 
 { "type": "Feature", "properties": { "Object ID": 222, "Reference ID": 379, "Line on Census Page": 8, "House Number": 481, "Family Number": 528, "LNAME": "Nichol", "FNAME": "Wm C", "Full Name": "Wm C Nichol", "AGE": 26, "GENDER": "M", "RACE": "White", "OCCUPATION": "(book keeper)", "FAMREAL": 0, "PERSREAL": 0, "Origin": "Tennessee", "ADDRESS": "16 north Summer Street", "ID": 481528, "Latitude": 36.16392188, "Longitude": -86.78037985 }, "geometry": { "type": "Point", "coordinates": [ -86.78037985, 36.16392188 ] } },
 { "type": "Feature", "properties": { "Object ID": 492, "Reference ID": 0, "Line on Census Page": 8, "House Number": 556, "Family Number": 616, "LNAME": "Corbitt", "FNAME": "James", "Full Name": "James Corbitt", "AGE": 55, "GENDER": "M", "RACE": "White", "OCCUPATION": "(carpenter)", "FAMREAL": 4000, "PERSREAL": 500, "Origin": "No Carolina", "ADDRESS": "Jefferson Street & Cherry Street", "ID": 556616, "Latitude": 36.174677, "Longitude": -86.786083 }, "geometry": { "type": "Point", "coordinates": [ -86.786083, 36.174677 ] } },
@@ -484,4 +484,4 @@ var nashpeople = {
 { "type": "Feature", "properties": { "Object ID": 201, "Reference ID": -1, "Line on Census Page": 17, "House Number": 404, "Family Number": 450, "LNAME": "Nichol", "FNAME": "Elleanor", "Full Name": "Elleanor Nichol", "AGE": 78, "GENDER": "F", "RACE": "White", "OCCUPATION": null, "FAMREAL": 105500, "PERSREAL": 6000, "Origin": "Virginia", "ADDRESS": "Cherry Street and Union Street", "ID": 404450, "Latitude": 36.165124, "Longitude": -86.779705 }, "geometry": { "type": "Point", "coordinates": [ -86.779705, 36.165124 ] } },
 { "type": "Feature", "properties": { "Object ID": 30, "Reference ID": 436, "Line on Census Page": 23, "House Number": 1042, "Family Number": 1200, "LNAME": "Woods", "FNAME": "Jane", "Full Name": "Jane Woods", "AGE": 80, "GENDER": "F", "RACE": "White", "OCCUPATION": null, "FAMREAL": 40000, "PERSREAL": 98000, "Origin": "Ky", "ADDRESS": "25 north High Street", "ID": 10421200, "Latitude": 36.16361616, "Longitude": -86.78222902 }, "geometry": { "type": "Point", "coordinates": [ -86.78222902, 36.16361616 ] } }
 
-}
+]
