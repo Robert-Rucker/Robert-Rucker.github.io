@@ -1,8 +1,4 @@
-var nmen = {
-"type": "FeatureCollection",
-"name": "nmen",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
+var nmen = [
 { "type": "Feature", "properties": { "Object ID": 0, "Reference ID": 0, "Line on Census Page": 0, "House Number": 0, "Family Number": 0, "LNAME": "Graham", "FNAME": "William P", "Full Name": "William P Graham", "AGE": 0, "GENDER": "M", "Race": null, "OCCUPATION": "Merchant", "FAMREAL": 0, "PERSREAL": 0, "Origin": "Ireland", "ADDRESS": "17 Gay Street", "ID": 0, "Latitude": 36.16806603, "Longitude": -86.78240233 }, "geometry": { "type": "Point", "coordinates": [ -86.78240233, 36.16806603 ] } },
 { "type": "Feature", "properties": { "Object ID": 102, "Reference ID": 442, "Line on Census Page": 38, "House Number": 130, "Family Number": 160, "LNAME": "Cooley", "FNAME": "Theodore", "Full Name": "Theodore Cooley", "AGE": 17, "GENDER": "M", "Race": "White", "OCCUPATION": "Clerk Grocery", "FAMREAL": 0, "PERSREAL": 0, "Origin": "Tenn", "ADDRESS": "185 south Summer Street", "ID": 130160, "Latitude": 36.15269753, "Longitude": -86.7731357 }, "geometry": { "type": "Point", "coordinates": [ -86.7731357, 36.15269753 ] } },
 { "type": "Feature", "properties": { "Object ID": 168, "Reference ID": 371, "Line on Census Page": 9, "House Number": 351, "Family Number": 389, "LNAME": "Thompson", "FNAME": "Charles A", "Full Name": "Charles A Thompson", "AGE": 17, "GENDER": "M", "Race": "White", "OCCUPATION": "Salesman", "FAMREAL": 0, "PERSREAL": 0, "Origin": "Ohio", "ADDRESS": "26 south Vine Street", "ID": 351389, "Latitude": 36.16036738, "Longitude": -86.78127001 }, "geometry": { "type": "Point", "coordinates": [ -86.78127001, 36.16036738 ] } },
@@ -439,4 +435,3 @@ var nmen = {
 { "type": "Feature", "properties": { "Object ID": 407, "Reference ID": 400, "Line on Census Page": 10, "House Number": 873, "Family Number": 1001, "LNAME": "Seay", "FNAME": "Samuel", "Full Name": "Samuel Seay", "AGE": 76, "GENDER": "M", "Race": "White", "OCCUPATION": "Retired Mer", "FAMREAL": 29800, "PERSREAL": 9700, "Origin": "Virginia", "ADDRESS": "58 north Summer Street", "ID": 8731001, "Latitude": 36.16696516, "Longitude": -86.78235762 }, "geometry": { "type": "Point", "coordinates": [ -86.78235762, 36.16696516 ] } },
 { "type": "Feature", "properties": { "Object ID": 477, "Reference ID": 432, "Line on Census Page": 29, "House Number": 993, "Family Number": 1153, "LNAME": "Diggons", "FNAME": "James", "Full Name": "James Diggons", "AGE": 79, "GENDER": "M", "Race": "White", "OCCUPATION": "Music Teacher", "FAMREAL": 7000, "PERSREAL": 5000, "Origin": "England", "ADDRESS": "14 south High Street", "ID": 9931153, "Latitude": 36.16140882, "Longitude": -86.7809021 }, "geometry": { "type": "Point", "coordinates": [ -86.7809021, 36.16140882 ] } }
 ]
-}
