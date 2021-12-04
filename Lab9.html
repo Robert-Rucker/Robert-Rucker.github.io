@@ -40,13 +40,13 @@
  		  zoom: 16,
  		  });
   
-	  var background = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}{r}.{ext}', {
-	attribution: '',
-	subdomains: 'abcd',
-	minZoom: 0,
-	maxZoom: 20,
-	ext: 'png'
-	}).addto(map);
+		var background = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}{r}.{ext}', {
+		attribution: '',
+		subdomains: 'abcd',
+		minZoom: 0,
+		maxZoom: 20,
+		ext: 'png'
+		}).addTo(map);
 		
 	var backgroundtwo = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -242,8 +242,12 @@ pointToLayer: function (feature, latlng) {
 			"Men": nmen
 	  };
 	  
-	  
-	  L.control.layers(overlays, {collapsed:false}).addTo(map);
+	  		var baseMaps = {
+	  		"one": background,
+	  		"two": backgroundtwo
+	  };
+		
+	  L.control.layers(overlays, baseMaps, {collapsed:false}).addTo(map);
 
     </script>
 	
