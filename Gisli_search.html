@@ -141,7 +141,7 @@
         caseSensitive: false,
         showInvisibleFeatures: true,
         layerToToggle: searchLayer,
-        threshold: 0.5, // default is .5, will match imperfect results
+        threshold: 0.5,
         showResultFct: function(feature, container) {
           props = feature.properties;
           var name = L.DomUtil.create('b', null, container);
@@ -149,7 +149,7 @@
 
           container.appendChild(L.DomUtil.create('br', null, container));
 
-          var cat = props.name ? props.Iname ? props.locationType : props.kalfi,
+          var cat = props.name ? props.locationType : props.kalfi,
               info = cat;
           container.appendChild(document.createTextNode(info));
         }
