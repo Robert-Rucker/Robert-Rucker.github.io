@@ -149,7 +149,7 @@
 
           container.appendChild(L.DomUtil.create('br', null, container));
 
-          var cat = props.name ? props.Iname : props.locationType,
+          var cat = props.name ? props.Iname ? props.locationType : props.kalfi,
               info = cat;
           container.appendChild(document.createTextNode(info));
         }
