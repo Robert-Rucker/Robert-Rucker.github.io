@@ -189,32 +189,35 @@
       };
 
 
-	 //var farms = new L.geoJson(farm, {
-	 // onEachFeature: onEachFeature,
-	//	pointToLayer: function (feature, latlng) {
-     //   return L.circleMarker(latlng, greenCircleMarkers);
-    //}});
+	 var farms = new L.geoJson(farm, {
+	  onEachFeature: onEachFeature,
+		pointToLayer: function (feature, latlng) {
+       return L.circleMarker(latlng, greenCircleMarkers);
+    }});
 
-	//var fjords = new L.geoJson(fjord, {
-	//  onEachFeature: onEachFeature,
-	//	pointToLayer: function (feature, latlng) {
-     //   return L.circleMarker(latlng, greenCircleMarkers);
-    //}});
+	var fjords = new L.geoJson(fjord, {
+	  onEachFeature: onEachFeature,
+		pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, greenCircleMarkers);
+    }});
 
-	//var valleys = new L.geoJson(valley, {
-	 // onEachFeature: onEachFeature,
-	//	pointToLayer: function (feature, latlng) {
-     //   return L.circleMarker(latlng, greenCircleMarkers);
-    //}});
+	var valleys = new L.geoJson(valley, {
+	  onEachFeature: onEachFeature,
+		pointToLayer: function (feature, latlng) {
+       return L.circleMarker(latlng, greenCircleMarkers);
+    }});
 	
-	//var assemblies = new L.geoJson(assembly, {
-	  //onEachFeature: onEachFeature,
-		//pointToLayer: function (feature, latlng) {
-        //return L.circleMarker(latlng, greenCircleMarkers);
-    //}});
+	var assemblies = new L.geoJson(assembly, {
+	  onEachFeature: onEachFeature,
+		pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, greenCircleMarkers);
+    }});
 	  
 	  		var overlays = {
-
+			"Assemblies": assemblies,
+			"Farms": farms,
+			"Fjords": fjords,
+			"Valleys": valleys
 	  };
 	  
 	  		var baseMaps = {
