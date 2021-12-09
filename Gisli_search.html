@@ -58,7 +58,7 @@
         if (feature.properties) {
           var prop = feature.properties;
 
-            var popup = '<h3>'+prop['name']+'</h3>'+'<strong>First Chapter: </strong>'+prop['kalfi']+'<br><br>details are from Gisli Sursson Saga translated by Martin S. Regal and The Icelandic Saga Map Project by Emily Lethbridge';
+            var popup = '<h3>'+prop['name']+'</h3>'+'<strong>First Chapter: </strong>'+prop['kalfi']+'<strong>Location Type: </strong>'+prop['locationType']+'<br><br>details are from Gisli Sursson Saga translated by Martin S. Regal and The Icelandic Saga Map Project by Emily Lethbridge';
           feature.layer = layer;
           layer.bindPopup(popup, {maxWidth: "auto"});
         }
