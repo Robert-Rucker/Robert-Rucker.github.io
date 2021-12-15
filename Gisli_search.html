@@ -62,9 +62,9 @@
 		ext: 'png'
 		}).addTo(map);
 		
-		var backgroundtwo = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}{r}.{ext}', {
-	attribution: '',
-	subdomains: 'abcd',
+		var backgroundtwo = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}{r}.{ext}', {
+		attribution: '',
+		subdomains: 'abcd',
 	minZoom: 0,
 	maxZoom: 20,
 	ext: 'png'
@@ -237,8 +237,8 @@
 	  };
 	  
 	  		var baseMaps = {
-	  		"Black and White": background,
-	  		"Watercolors": backgroundtwo
+	  		"Black and White": backgroundtwo,
+	  		"Watercolors": background
 	  };
 		
 	  L.control.layers(overlays, baseMaps, {collapsed:false}).addTo(map);
