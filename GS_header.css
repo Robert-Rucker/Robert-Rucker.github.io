@@ -35,13 +35,13 @@
 
 .navagation a{
 	height: 100%;
-	display: table;
+	display: block;
 	float: left;
 	padding: 0px 20px;
 }
 
 .navagation a li{
-	display: table-cell;
+	display: block;
 	vertical-align: middle;
 	height: 100%;
 	color: #101010;
