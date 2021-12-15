@@ -29,20 +29,19 @@
 }
 
 .navigation{
-	display: inline;
 	float: right;
 	height: 100%;
 }
 
 .navagation a{
 	height: 100%;
-	display: inline;
+	display: table;
 	float: left;
 	padding: 0px 20px;
 }
 
 .navagation a li{
-	display: inline;
+	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
 	color: #101010;
