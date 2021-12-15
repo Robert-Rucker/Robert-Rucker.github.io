@@ -29,6 +29,7 @@
 }
 
 .navigation{
+	display: inline;
 	float: right;
 	height: 100%;
 }
